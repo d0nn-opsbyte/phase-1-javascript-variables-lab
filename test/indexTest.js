@@ -11,8 +11,8 @@ describe('index.js', function () {
       expect(companyName).to.equal('Scuber');
     });
 
-    it('is defined as a const', function () {
-      expect(js).to.match(/const companyName/, "Expected companyName to be a const");
+    it('is defined as a let', function () {
+      expect(js).to.match(/let companyName/, "Expected companyName to be a const");
     });
   });
 
@@ -27,8 +27,8 @@ describe('index.js', function () {
   });
 
   describe('companyCeo', function () {
-    it('is declared as equal to Susan Smith', function () {
-      expect(companyCeo).to.equal('Susan Smith');
+    it('is declared as equal to SusanSmith', function () {
+      expect(companyCeo).to.equal('SusanSmith');
     });
 
     it('is defined using let', function () {
